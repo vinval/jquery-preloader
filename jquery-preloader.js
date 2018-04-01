@@ -75,7 +75,7 @@ function Loader (init) {
         }
         loader.html(content);
         wrapper.html(loader);
-        where.html(wrapper);
+        where.append(wrapper);
     }
     function buildCss () {
         var css =   ".rotateX {-webkit-animation: rotateX 1s infinite linear;animation: rotateX 1s infinite linear;} @-webkit-keyframes rotateX {100% {-webkit-transform: rotatex(360deg)}} @keyframes rotateX {100% {transform: rotatex(360deg)}}";
